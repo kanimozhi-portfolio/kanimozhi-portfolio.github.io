@@ -1,6 +1,5 @@
 const A='./assets/images/';
 const V='./assets/videos/';
-const P='./assets/video-posters/';
 const items=[
 {id:'journey',cat:'design',title:'The Journey',type:'Book Cover',img:A+'the-journey.png',desc:'Editorial cover design with front and back cover treatment.'},
 {id:'back',cat:'design',title:'The Journey — Back',type:'Book Cover',img:A+'back-cover.png',desc:'Back cover companion to The Journey.'},
@@ -22,23 +21,23 @@ const items=[
 {id:'christmas2',cat:'design',title:'Christmas — Alternate',type:'Festive Content',img:A+'christmas-1.png',desc:'Alternate festive creative.'},
 {id:'diwali2',cat:'design',title:'Diwali — Alternate',type:'Festive Content',img:A+'diwali-1.png',desc:'Alternate festive creative.'},
 {id:'gandhi',cat:'design',title:'Gandhi Jayanthi',type:'Festive Content',img:A+'gandhi-jayanthi.png',desc:'Festive social creative.'},
-{id:'testimony1',cat:'video',title:'Bloom Revive Testimony',type:'Testimony Video',video:V+'bloom-revive-testimony-final-v2.mp4',poster:P+'bloom-revive-testimony-final-v2.jpg',desc:'Client testimony edit.'},
-{id:'testimony2',cat:'video',title:'Testimony',type:'Testimony Video',video:V+'testimony.mp4',poster:P+'testimony.jpg',desc:'Testimony edit.'},
-{id:'story',cat:'video',title:"Fitra's Vlog",type:'Storytelling',video:V+'fitrascalvlog.mp4',poster:P+'fitrascalvlog.jpg',desc:'Vlog storytelling edit.'},
+{id:'testimony1',cat:'video',title:'Bloom Revive Testimony',type:'Testimony Video',video:V+'bloom-revive-testimony-final-v2.mp4',desc:'Client testimony edit.'},
+{id:'testimony2',cat:'video',title:'Testimony',type:'Testimony Video',video:V+'testimony.mp4',desc:'Testimony edit.'},
+{id:'story',cat:'video',title:"Fitra's Vlog",type:'Storytelling',video:V+'fitrascalvlog.mp4',desc:'Vlog storytelling edit.'},
 {id:'mua',cat:'social',title:'MUA Social Media',type:'Social Media Management',desc:'15-day social media management case study — content, reels and lead-focused creative execution.'},
-{id:'mua1',cat:'social',title:'MUA — Reel 03',type:'Social Reel',video:V+'reel-3.mp4',poster:P+'reel-3.jpg',desc:'Real client social-media work.'},
-{id:'mua2',cat:'social',title:'MUA — Reel 08',type:'Social Reel',video:V+'reel-8-1.mp4',poster:P+'reel-8-1.jpg',desc:'Real client social-media work.'},
-{id:'mua3',cat:'social',title:'MUA — Reel 09',type:'Social Reel',video:V+'reel-9-1.mp4',poster:P+'reel-9-1.jpg',desc:'Real client social-media work.'},
-{id:'false',cat:'video',title:'False Fatigue',type:'Educational / Talking Head',video:V+'false-fatigue-v2-1.mp4',poster:P+'false-fatigue-v2-1.jpg',desc:'Educational short-form edit.'},
-{id:'mirror',cat:'video',title:'Mirror Secret',type:'Educational / Talking Head',video:V+'mirror-secret-fv-1.mp4',poster:P+'mirror-secret-fv-1.jpg',desc:'Educational short-form edit.'},
-{id:'good',cat:'video',title:'Good Job',type:'Educational / Talking Head',video:V+'good-job-v2.mp4',poster:P+'good-job-v2.jpg',desc:'Educational short-form edit.'},
-{id:'future',cat:'video',title:'Future Course',type:'Educational / Talking Head',video:V+'future-course.mp4',poster:P+'future-course.jpg',desc:'Educational short-form edit.'},
-{id:'maths',cat:'video',title:'Maths One Mark',type:'Educational / Talking Head',video:V+'maths-one-mark.mp4',poster:P+'maths-one-mark.jpg',desc:'Educational short-form edit.'},
-{id:'tamil',cat:'video',title:'11th Tamil',type:'Educational / Talking Head',video:V+'11th-tamil.mp4',poster:P+'11th-tamil.jpg',desc:'Educational short-form edit.'},
-{id:'motion',cat:'video',title:'Motion Graphics',type:'Motion Graphics',video:V+'video-from-kanimozhi.mp4',poster:P+'video-from-kanimozhi.jpg',desc:'Motion graphics study.'},
-{id:'tribhang',cat:'video',title:'Tribhang 4',type:'Dance / Performance',video:V+'tribhang-4.mp4',poster:P+'tribhang-4.jpg',desc:'Performance edit.'},
-{id:'kathak',cat:'video',title:'Kathak Trailer',type:'Dance / Performance',video:V+'kathak-trailer.mp4',poster:P+'kathak-trailer.jpg',desc:'Dance trailer edit.'},
-{id:'ai',cat:'video',title:'Shankara Water Descaler',type:'AI-Assisted Commercial',video:V+'shankara-water-descaler-final-v1-english.mp4',poster:P+'shankara-water-descaler-final-v1-english.jpg',desc:'AI-assisted commercial video.'},
+{id:'mua1',cat:'social',title:'MUA — Reel 03',type:'Social Reel',video:V+'reel-3.mp4',desc:'Real client social-media work.'},
+{id:'mua2',cat:'social',title:'MUA — Reel 08',type:'Social Reel',video:V+'reel-8-1.mp4',desc:'Real client social-media work.'},
+{id:'mua3',cat:'social',title:'MUA — Reel 09',type:'Social Reel',video:V+'reel-9-1.mp4',desc:'Real client social-media work.'},
+{id:'false',cat:'video',title:'False Fatigue',type:'Educational / Talking Head',video:V+'false-fatigue-v2-1.mp4',desc:'Educational short-form edit.'},
+{id:'mirror',cat:'video',title:'Mirror Secret',type:'Educational / Talking Head',video:V+'mirror-secret-fv-1.mp4',desc:'Educational short-form edit.'},
+{id:'good',cat:'video',title:'Good Job',type:'Educational / Talking Head',video:V+'good-job-v2.mp4',desc:'Educational short-form edit.'},
+{id:'future',cat:'video',title:'Future Course',type:'Educational / Talking Head',video:V+'future-course.mp4',desc:'Educational short-form edit.'},
+{id:'maths',cat:'video',title:'Maths One Mark',type:'Educational / Talking Head',video:V+'maths-one-mark.mp4',desc:'Educational short-form edit.'},
+{id:'tamil',cat:'video',title:'11th Tamil',type:'Educational / Talking Head',video:V+'11th-tamil.mp4',desc:'Educational short-form edit.'},
+{id:'motion',cat:'video',title:'Motion Graphics',type:'Motion Graphics',video:V+'video-from-kanimozhi.mp4',desc:'Motion graphics study.'},
+{id:'tribhang',cat:'video',title:'Tribhang 4',type:'Dance / Performance',video:V+'tribhang-4.mp4',desc:'Performance edit.'},
+{id:'kathak',cat:'video',title:'Kathak Trailer',type:'Dance / Performance',video:V+'kathak-trailer.mp4',desc:'Dance trailer edit.'},
+{id:'ai',cat:'video',title:'Shankara Water Descaler',type:'AI-Assisted Commercial',video:V+'shankara-water-descaler-final-v1-english.mp4',desc:'AI-assisted commercial video.'},
 {id:'titans',cat:'strategy',title:'Rise of the Titans',type:'Creative Direction / Content Strategy',desc:'ICN India 2026 — world-building, narrative and a 26-reel series system.'}
 ];
 
@@ -48,7 +47,8 @@ const modal=document.getElementById('modal');
 const content=document.getElementById('modalContent');
 
 function card(x){
- const media=x.video?`<video muted loop playsinline preload="metadata" poster="${x.poster||''}"><source src="${x.video}" type="video/mp4"></video>`:`<img loading="lazy" src="${x.img}" alt="${x.title}">`;
+ const media=x.video?`<video muted loop playsinline preload="metadata"><source src="${x.video}" type="video/mp4"></video>`:`<img loading="lazy" src="${x.img}" alt="${x.title}">`;
+ if(x.id==='mua') return `<a class="archive-item" href="./mua-case-study.html"><div class="archive-thumb">${media}</div><h4>${x.title}</h4><p>${x.type}</p></a>`;
  return `<article class="archive-item" data-open="${x.id}"><div class="archive-thumb">${media}</div><h4>${x.title}</h4><p>${x.type}</p></article>`;
 }
 function bindInteractive(){
@@ -69,10 +69,8 @@ function openModal(id){
   html+=`<div class="modal-section"><h3>Project thinking</h3><p class="modal-copy">A campaign world built around Titans as living archetypes of discipline and dominance. The story moves from the Scroll, through city-specific identities, to the Gathering and the Dubai Forge.</p><div class="timeline"><div><b>Mumbai</b><span>Storm Titan</span></div><div><b>Bangalore</b><span>War Titan</span></div><div><b>Hyderabad</b><span>Desire Titan</span></div><div><b>Goa</b><span>Gathering</span></div><div><b>Dubai</b><span>Forge Titan</span></div></div></div><div class="modal-section"><h3>Role</h3><div class="tagrow"><span class="tag">Creative Analysis</span><span class="tag">World-building</span><span class="tag">Story Development</span><span class="tag">Content Strategy</span><span class="tag">Series Planning</span></div></div>`;
  } else if(id==='journey'){
   html+=`<div class="modal-grid"><img src="${A}the-journey.png" alt="The Journey front cover"><img src="${A}back-cover.png" alt="The Journey back cover"></div>`;
- } else if(id==='mua'){
-  html+=`<div class="modal-grid"><video controls playsinline poster="${P}reel-3.jpg"><source src="${V}reel-3.mp4" type="video/mp4"></video><video controls playsinline poster="${P}reel-8-1.jpg"><source src="${V}reel-8-1.mp4" type="video/mp4"></video><video controls playsinline poster="${P}reel-9-1.jpg"><source src="${V}reel-9-1.mp4" type="video/mp4"></video></div><div class="modal-section"><h3>Role</h3><p class="modal-copy">Social media management, content execution and reel creation for an MUA page. The project can be expanded with analytics screenshots and the 15-day performance story.</p></div>`;
  } else if(x.video){
-  html+=`<div class="modal-grid"><video controls playsinline poster="${x.poster||''}"><source src="${x.video}" type="video/mp4"></video></div>`;
+  html+=`<div class="modal-grid"><video controls playsinline><source src="${x.video}" type="video/mp4"></video></div>`;
  } else {
   html+=`<div class="modal-grid"><img src="${x.img}" alt="${x.title}"></div>`;
  }
