@@ -2,75 +2,165 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Kanimozhi — Creative Analyst, Content Strategist, Designer and Video Editor.">
-  <title>Kanimozhi — Creative Analyst & Content Strategist</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kanimozhi — Creative Analyst working across content strategy, graphic design, video, motion and social media.">
+  <title>Kanimozhi — Creative Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="noise"></div>
-  <header class="nav">
-    <a class="brand" href="#top">KANIMOZHI<span>.</span></a>
-    <button class="menu-btn" aria-expanded="false" aria-controls="menu">MENU <span>+</span></button>
-    <nav id="menu" class="menu" aria-label="Primary navigation">
-      <div class="nav-dropdown">
-        <button class="nav-drop-trigger" type="button" aria-expanded="false">Work <span>⌄</span></button>
-        <div class="nav-drop-menu">
-          <a href="#work">Selected Work</a>
-          <a href="#archiveGrid" data-filter-link="design">Graphic Design</a>
-          <a href="#archiveGrid" data-filter-link="video">Video &amp; Motion</a>
-          <a href="#archiveGrid" data-filter-link="social">Social Media</a>
-          <a href="#archiveGrid" data-filter-link="strategy">Creative Direction</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="home">
+    <a class="logo" href="#home" aria-label="Kanimozhi home">KANIMOZHI<span>•</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About me</a>
+      <a href="#offer">What I offer</a>
+      <div class="nav-work">
+        <button type="button" class="nav-work-btn" aria-expanded="false">Work <span>⌄</span></button>
+        <div class="nav-work-menu">
+          <a href="#work" data-filter-link="all">All work</a>
+          <a href="#work" data-filter-link="design">Graphic design</a>
+          <a href="#work" data-filter-link="video">Video & motion</a>
+          <a href="#work" data-filter-link="social">Social media</a>
+          <a href="#work" data-filter-link="strategy">Creative direction</a>
         </div>
       </div>
-      <a href="#approach">Approach</a>
-      <a href="#services">Capabilities</a>
-      <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
+    <button class="mobile-toggle" type="button" aria-expanded="false" aria-controls="mobileNav">Menu <span>+</span></button>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-kicker">CREATIVE ANALYST · CONTENT · DESIGN · VIDEO</div>
-      <h1>I look at the idea<br><em>before</em> I make it.</h1>
-      <p class="hero-copy">I analyse what a project needs, shape the concept, and turn it into content that communicates — across design, video and social media.</p>
-      <div class="hero-meta"><span>Based in India</span><span>Available for creative projects</span></div>
-    </section>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#home">Home</a>
+    <a href="#about">About me</a>
+    <a href="#offer">What I offer</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </div>
 
-    <section id="work" class="work-section">
-      <div class="section-head"><span>01 / SELECTED WORK</span><span>Scroll / Explore</span></div>
-      <div class="work-grid">
-        <article class="project featured" data-open="titans">
-          <div class="project-media titan-card"><div class="titan-mark">R</div><div><small>CREATIVE DIRECTION</small><strong>RISE OF<br>THE TITANS</strong><span>ICN INDIA 2026 · Concept / Story / Series Strategy</span></div></div>
-          <div class="project-info"><h2>Rise of the Titans</h2><p>World-building, narrative architecture and a 26-reel content system.</p><b>01</b></div>
-        </article>
-        <article class="project" data-open="journey">
-          <div class="project-media"><img src="assets/images/the-journey.png" alt="The Journey book cover"></div>
-          <div class="project-info"><h2>The Journey</h2><p>Book cover · editorial composition</p><b>02</b></div>
-        </article>
-        <article class="project" data-open="mua">
-          <div class="project-media video-card"><video muted autoplay loop playsinline poster="assets/video-posters/reel-3.jpg"><source src="assets/videos/reel-3.mp4" type="video/mp4"></video><span class="play-label">MUA / SOCIAL</span></div>
-          <div class="project-info"><h2>MUA Social Media</h2><p>Reels · content · creative management</p><b>03</b></div>
-        </article>
-        <article class="project" data-open="motion">
-          <div class="project-media video-card"><video muted autoplay loop playsinline poster="assets/video-posters/video-from-kanimozhi.jpg"><source src="assets/videos/video-from-kanimozhi.mp4" type="video/mp4"></video></div>
-          <div class="project-info"><h2>Motion Graphics</h2><p>Animation · visual communication</p><b>04</b></div>
-        </article>
-        <article class="project" data-open="iphone">
-          <div class="project-media"><img src="assets/images/iphone-x.png" alt="iPhone X water concept poster"></div>
-          <div class="project-info"><h2>iPhone X</h2><p>Concept advertising · product visual</p><b>05</b></div>
-        </article>
-        <article class="project" data-open="adhi">
-          <div class="project-media"><img src="assets/images/adhi-s-kitchen.png" alt="Adhi's Kitchen logo and identity"></div>
-          <div class="project-info"><h2>Adhi's Kitchen</h2><p>Logo · identity application</p><b>06</b></div>
-        </article>
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-eyebrow reveal">CREATIVE ANALYST <span>•</span> CONTENT <span>•</span> DESIGN <span>•</span> VIDEO</div>
+      <div class="hero-grid">
+        <div>
+          <h1 class="reveal delay-1">I look at the idea<br><em>before</em> I make it.</h1>
+        </div>
+        <div class="hero-side reveal delay-2">
+          <p class="hero-lead">I work at the point where thinking becomes creative.</p>
+          <p>I analyse the brief, understand the audience and shape the right creative direction — then turn it into design, video, content and social work that has a reason to exist.</p>
+          <a class="text-link" href="#work">Explore selected work <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom reveal delay-3">
+        <span>Based in India</span>
+        <span>Open to creative projects & collaborations</span>
+        <span class="scroll-cue">Scroll to explore ↓</span>
       </div>
     </section>
 
-    <section class="archive" aria-label="Work archive">
-      <div class="section-head"><span>02 / WORK ARCHIVE</span><span id="count">0 projects</span></div>
-      <div class="filters">
+    <section class="intro-band section-pad">
+      <div class="section-label"><span>01</span><span>THE POINT OF VIEW</span></div>
+      <div class="intro-copy">
+        <p class="big-statement">Good creative work isn't only about making something look good. <em>It starts with knowing what needs to be said.</em></p>
+        <p class="support-copy">That is where I start — with the problem, the audience, the context and the idea. The execution comes after the decision.</p>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="section-label"><span>02</span><span>ABOUT ME</span></div>
+      <div class="about-grid">
+        <div>
+          <p class="section-kicker">THINKING × MAKING</p>
+          <h2>More than an executor.<br><em>A creative thinker.</em></h2>
+        </div>
+        <div class="about-copy">
+          <p>My work sits between analysis and execution. I like understanding why something needs to exist, who it needs to reach and what it needs to make people feel or do.</p>
+          <p>From a single social post to a larger content system, I can move between the strategic question and the actual making — concept, visual direction, design, edit, motion and publishing.</p>
+          <div class="about-note"><span>MY ROLE</span><strong>Think first. Build with purpose.</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer section-pad" id="offer">
+      <div class="section-label"><span>03</span><span>WHAT I OFFER</span></div>
+      <div class="section-intro">
+        <h2>Creative support from <em>thinking</em> to delivery.</h2>
+        <p>I can join at the beginning of a project, step into an existing brief, or take care of the creative execution end-to-end.</p>
+      </div>
+      <div class="offer-grid">
+        <article class="offer-card"><span>01</span><h3>Creative Analysis</h3><p>Brief analysis, audience thinking, communication problems, concepts and creative direction.</p></article>
+        <article class="offer-card"><span>02</span><h3>Content Strategy</h3><p>Content ideas, hooks, formats, campaign systems and platform-aware planning.</p></article>
+        <article class="offer-card"><span>03</span><h3>Graphic Design</h3><p>Social creatives, posters, campaigns, book covers, identity and visual communication.</p></article>
+        <article class="offer-card"><span>04</span><h3>Video & Motion</h3><p>Short-form edits, talking-head content, storytelling, testimony, performance and motion graphics.</p></article>
+        <article class="offer-card"><span>05</span><h3>Social Media</h3><p>Creative management, reels, content execution and iteration based on audience response.</p></article>
+        <article class="offer-card"><span>06</span><h3>AI-Assisted Creative</h3><p>AI video and visual workflows where they make the idea stronger, faster or more expressive.</p></article>
+      </div>
+    </section>
+
+    <section class="process section-pad">
+      <div class="section-label"><span>04</span><span>HOW I WORK</span></div>
+      <div class="process-head"><h2>The work changes.<br><em>The thinking stays.</em></h2><p>A simple process keeps the creative connected to the actual goal.</p></div>
+      <div class="process-list">
+        <div><span>01</span><strong>Understand</strong><p>Brief, audience, context.</p></div>
+        <div><span>02</span><strong>Analyse</strong><p>Problem, opportunity, angle.</p></div>
+        <div><span>03</span><strong>Conceptualise</strong><p>Idea, narrative, visual system.</p></div>
+        <div><span>04</span><strong>Create</strong><p>Design, edit, motion, content.</p></div>
+        <div><span>05</span><strong>Publish</strong><p>Platform-ready execution.</p></div>
+        <div><span>06</span><strong>Learn</strong><p>Response informs the next move.</p></div>
+      </div>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <div class="section-label"><span>05</span><span>SELECTED WORK</span></div>
+      <div class="work-head">
+        <div><h2>Some of the things<br><em>I've built.</em></h2></div>
+        <p>The portfolio moves across formats because the creative problem comes first — not the medium.</p>
+      </div>
+
+      <div class="selected-grid">
+        <article class="project-card large reveal" data-open="journey">
+          <div class="media-wrap"><img src="./assets/images/the-journey.png" alt="The Journey book cover"></div>
+          <div class="project-meta"><span>GRAPHIC DESIGN</span><span>01</span></div>
+          <h3>The Journey</h3><p>Book cover system · editorial composition</p>
+        </article>
+        <article class="project-card reveal" data-open="mua">
+          <div class="media-wrap video-wrap"><video muted autoplay loop playsinline preload="metadata" poster="./assets/video-posters/reel-3.jpg"><source src="./assets/videos/reel-3.mp4" type="video/mp4"></video><span class="media-badge">PLAY</span></div>
+          <div class="project-meta"><span>SOCIAL MEDIA</span><span>02</span></div>
+          <h3>MUA Social Media</h3><p>Reels · content management · 15-day case study</p>
+        </article>
+        <article class="project-card reveal" data-open="motion">
+          <div class="media-wrap video-wrap"><video muted autoplay loop playsinline preload="metadata" poster="./assets/video-posters/video-from-kanimozhi.jpg"><source src="./assets/videos/video-from-kanimozhi.mp4" type="video/mp4"></video><span class="media-badge">PLAY</span></div>
+          <div class="project-meta"><span>MOTION</span><span>03</span></div>
+          <h3>Motion Graphics</h3><p>Visual movement · short-form animation</p>
+        </article>
+        <article class="project-card reveal" data-open="adhi">
+          <div class="media-wrap"><img src="./assets/images/adhi-s-kitchen.png" alt="Adhi's Kitchen logo and identity application"></div>
+          <div class="project-meta"><span>BRAND IDENTITY</span><span>04</span></div>
+          <h3>Adhi's Kitchen</h3><p>Logo · identity application</p>
+        </article>
+        <article class="project-card reveal" data-open="iphone">
+          <div class="media-wrap"><img src="./assets/images/iphone-x.png" alt="iPhone X water concept poster"></div>
+          <div class="project-meta"><span>CONCEPT</span><span>05</span></div>
+          <h3>iPhone X — Water</h3><p>Product concept · advertising visual</p>
+        </article>
+        <article class="project-card reveal" data-open="false">
+          <div class="media-wrap video-wrap"><video muted autoplay loop playsinline preload="metadata" poster="./assets/video-posters/false-fatigue-v2-1.jpg"><source src="./assets/videos/false-fatigue-v2-1.mp4" type="video/mp4"></video><span class="media-badge">PLAY</span></div>
+          <div class="project-meta"><span>VIDEO</span><span>06</span></div>
+          <h3>Educational Content</h3><p>Talking-head edit · information made watchable</p>
+        </article>
+      </div>
+
+      <div class="direction-feature" data-open="titans">
+        <div><span class="small-label">CREATIVE DIRECTION / CONTENT STRATEGY</span><h3>Rise of the Titans</h3><p>A world-building campaign concept for ICN India 2026 — narrative architecture, city archetypes and a 26-reel content system.</p></div>
+        <span class="feature-arrow">View case study ↗</span>
+      </div>
+
+      <div class="archive-head"><div><span class="small-label">THE ARCHIVE</span><h3>More work, organised by discipline.</h3></div><span id="count">0 projects</span></div>
+      <div class="filters" role="tablist" aria-label="Work categories">
         <button class="filter active" data-filter="all">All</button>
         <button class="filter" data-filter="design">Graphic Design</button>
         <button class="filter" data-filter="video">Video & Motion</button>
@@ -80,51 +170,21 @@
       <div class="archive-grid" id="archiveGrid"></div>
     </section>
 
-    <section id="approach" class="approach">
-      <div class="section-head"><span>03 / HOW I WORK</span><span>Analysis first</span></div>
-      <div class="approach-layout">
-        <h2>The creative<br><em>decision</em> comes first.</h2>
-        <div class="steps">
-          <div><span>01</span><h3>Understand</h3><p>Read the requirement, audience and purpose before choosing a format.</p></div>
-          <div><span>02</span><h3>Analyse</h3><p>Find the communication problem, the opportunity and the strongest angle.</p></div>
-          <div><span>03</span><h3>Conceptualise</h3><p>Build the idea, narrative, visual direction or content system.</p></div>
-          <div><span>04</span><h3>Create</h3><p>Execute through design, editing, motion, writing and AI-assisted production.</p></div>
-          <div><span>05</span><h3>Publish</h3><p>Adapt the creative to the platform, audience and publishing context.</p></div>
-          <div><span>06</span><h3>Learn</h3><p>Look at the response and use what works to improve the next creative decision.</p></div>
-        </div>
+    <section class="contact section-pad" id="contact">
+      <div class="section-label"><span>06</span><span>CONTACT</span></div>
+      <div class="contact-grid">
+        <div><p class="section-kicker">HAVE A BRIEF?</p><h2>Let's make<br><em>something useful.</em></h2></div>
+        <div class="contact-copy"><p>If you have a project that needs someone who can think through the creative and then make it happen, I'd love to hear about it.</p><a class="contact-email" href="mailto:vkanimozhi2701@gmail.com">vkanimozhi2701@gmail.com <span>↗</span></a><a class="contact-phone" href="tel:+919360581179">+91 93605 81179 <span>↗</span></a><p class="contact-note">Available for freelance creative direction, content, design, video and social media projects.</p></div>
       </div>
-    </section>
-
-    <section id="services" class="capabilities">
-      <div class="section-head"><span>04 / CAPABILITIES</span><span>What I can take on</span></div>
-      <div class="cap-grid">
-        <div><small>01</small><h3>Creative Analysis</h3><p>Requirement analysis, audience thinking, creative direction and concept development.</p></div>
-        <div><small>02</small><h3>Content Strategy</h3><p>Content ideas, formats, hooks, campaign thinking and social content planning.</p></div>
-        <div><small>03</small><h3>Graphic Design</h3><p>Social creatives, posters, campaigns, book covers and brand identity assets.</p></div>
-        <div><small>04</small><h3>Video & Motion</h3><p>Short-form editing, talking-head, storytelling, testimony, performance and motion graphics.</p></div>
-        <div><small>05</small><h3>Social Media</h3><p>Creative management, reels, content execution and performance-led iteration.</p></div>
-        <div><small>06</small><h3>AI-Assisted Creative</h3><p>AI video and visual workflows used where they strengthen the creative outcome.</p></div>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <div class="section-head"><span>05 / ABOUT</span><span>Thinking behind the work</span></div>
-      <div class="about-layout"><h2>Not just an executor.<br><em>A creative thinker.</em></h2><p>My work sits between analysis and execution. I like understanding why something needs to exist, who it needs to reach and what it needs to make people feel or do — then choosing the right creative form to deliver it.</p></div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="section-head"><span>06 / CONTACT</span><span>Let's make something useful</span></div>
-      <h2>Have a brief?<br><em>Let's talk.</em></h2>
-      <a class="contact-link" href="mailto:your@email.com">your@email.com <span>↗</span></a>
-      <p class="note">Replace the email above with your professional email before publishing.</p>
     </section>
   </main>
 
+  <footer><span>© 2026 Kanimozhi</span><span>Creative Analyst · Content · Design · Video</span></footer>
+
   <div class="modal" id="modal" aria-hidden="true">
     <div class="modal-backdrop"></div>
-    <div class="modal-panel"><button class="close" aria-label="Close">×</button><div id="modalContent"></div></div>
+    <div class="modal-panel"><button class="close" aria-label="Close project">×</button><div id="modalContent"></div></div>
   </div>
-  <footer><span>© 2026 Kanimozhi</span><span>Creative Analyst / Content / Design / Video</span></footer>
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
